@@ -1,0 +1,61 @@
+/* .LogoDiv{
+    display: flex;
+    align-items: center;
+} */
+/* .navDiv{
+    display: flex;
+    justify-content:space-around;
+} */
+.navLinkCss{
+    color: white;
+}
+.navLinkcss:hover{
+    color:darkgrey;
+}
+.navItemCss:hover{
+  background-color:#6c757d;
+}
+
+.navbar-toggler {
+    border: 0 !important;
+}
+ 
+#section{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;  
+    height: 800px;
+    background-image: url(https://images.unsplash.com/photo-1511142878591-5040f0bdaadd?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&h=1500&w=2000&fit=clip&fm=jpg);
+    text-align: right;
+    background-position:right;
+}
+.rightSec2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: inherit;
+}
+.title1{
+    font-size: 72px;
+    font-weight: 700;
+}
+.titleSection2{
+    text-align: center;
+    font-weight: 100;
+}
+
+@media only screen and (max-width:380px){
+    .title1{
+        font-size: 50px;
+        font-weight: 500;
+    }
+}
+@media only screen and (max-width:266px){
+    .navbar-text{
+        display: none;
+    }
+    .title1{
+        font-size: 40px;
+    }
+   
+}
